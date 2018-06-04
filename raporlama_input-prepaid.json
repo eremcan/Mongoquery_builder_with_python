@@ -1,0 +1,236 @@
+{
+    "category": "Prepaid-Raporlar",
+    "subcategories": [
+        {
+            "subcategoryname": "Çağrı Raporları",
+            "reports": [
+                {
+                    "reportname": "Sonlanma Kodu",
+                    "type": "column",
+                    "result": "",
+                    "nodedesc": "",
+                    "pieces": [
+                        {
+                            "piecename": "Hangup",
+                            "result": "HANGUP",
+                            "nodedesc": ""
+                        },
+                        {
+                            "piecename": "Agent",
+                            "result": "AGENT",
+                            "nodedesc": ""
+                        },
+                        {
+                            "piecename": "Disconnect",
+                            "result": "DISCONNECT",
+                            "nodedesc": ""
+                        }
+                    ]
+                },
+                {
+                    "reportname": "Hangup",
+                    "type": "column",
+                    "result": "HANGUP",
+                    "nodedesc": "",
+                    "pieces": [
+                        {
+                            "piecename": "Prepaid Ana Menü",
+                            "result": "HANGUP",
+                            "nodedesc": "PrePaid Ana Menu"
+                        },
+                        {
+                            "piecename": "KYT Proaktivite",
+                            "result": "HANGUP",
+                            "nodedesc": "MenuCampaignTitles && !!PrePaid Ana Menu && !!Kalan Bakiye Bilgisi"
+                        },
+                        {
+                            "piecename": "TL Bakiye Proaktivite",
+                            "result": "HANGUP",
+                            "nodedesc": "Kalan Bakiye Bilgisi && !!PrePaid Ana Menu"
+                        },
+                        {
+                            "piecename": "Köpük Çağrı",
+                            "result": "HANGUP",
+                            "nodedesc": "!!MenuCampaignTitles && !!PrePaid Ana Menu && !!Kalan Bakiye Bilgisi"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subcategoryname": "IVR Raporları",
+            "reports": [
+                {
+                    "reportname": "Prepaid Ana Menü IVR Sonlanma Kodu",
+                    "type": "column",
+                    "result": "",
+                    "nodedesc": "PrePaid Ana Menu",
+                    "pieces": [
+                        {
+                            "piecename": "Hangup",
+                            "result": "HANGUP",
+                            "nodedesc": "PrePaid Ana Menu"
+                        },
+                        {
+                            "piecename": "Agent",
+                            "result": "AGENT",
+                            "nodedesc": "PrePaid Ana Menu"
+                        },
+                        {
+                            "piecename": "Disconnect",
+                            "result": "DISCONNECT",
+                            "nodedesc": "PrePaid Ana Menu"
+                        }
+                    ]
+                },
+                {
+                    "reportname": "Prepaid AnaMenü IVR Agent",
+                    "type": "column",
+                    "result": "AGENT",
+                    "nodedesc": "PrePaid Ana Menu",
+                    "pieces": [
+                        {
+                            "piecename": "0.MT Transfer",
+                            "result": "AGENT",
+                            "nodedesc": "PrePaid Ana Menu , MT Transfer"
+                        },
+                        {
+                            "piecename": "1.KK ile Lira Yükleme",
+                            "result": "AGENT",
+                            "nodedesc": "PrePaid Menu KK ile Lira Yükleme"
+                        },
+                        {
+                            "piecename": "2.Kalan Kullanım ve Yurtdışı Servisleri",
+                            "result": "AGENT",
+                            "nodedesc": "Kalan Kullanim ve YurtDışı Servisleri PrePaid Alt Menusu"
+                        },
+                        {
+                            "piecename": "3.Kampanyalar",
+                            "result": "AGENT",
+                            "nodedesc": "PrePaid Menu  Kampayalar"
+                        },
+                        {
+                            "piecename": "4.Yeni Paketler",
+                            "result": "AGENT",
+                            "nodedesc": "PrePaid Menu Yeni Paketler"
+                        },
+                        {
+                            "piecename": "5.OTA",
+                            "result": "AGENT",
+                            "nodedesc": "PrePaid Menu Ota"
+                        },
+                        {
+                            "piecename": "6.Kayıp Çalıntı",
+                            "result": "AGENT",
+                            "nodedesc": "PrePaid Menu KayıpÇalıntı"
+                        },
+                        {
+                            "piecename": "7.Vergi Bildirimi",
+                            "result": "AGENT",
+                            "nodedesc": "PrePaid Menu Vergi Bildirimi"
+                        }
+                    ]
+                },
+                {
+                    "reportname": "Prepaid Ana Menü IVR Tuşlama Kullanım",
+                    "type": "column",
+                    "result": "",
+                    "nodedesc": "PrePaid Ana Menu",
+                    "pieces": [
+                        {
+                            "piecename": "0.MT Transfer",
+                            "result": "",
+                            "nodedesc": "PrePaid Ana Menu , MT Transfer"
+                        },
+                        {
+                            "piecename": "1.KK ile Lira Yükleme",
+                            "result": "",
+                            "nodedesc": "PrePaid Menu KK ile Lira Yükleme"
+                        },
+                        {
+                            "piecename": "2.Kalan Kullanım ve Yurtdışı Servisleri",
+                            "result": "",
+                            "nodedesc": "Kalan Kullanim ve YurtDışı Servisleri PrePaid Alt Menusu"
+                        },
+                        {
+                            "piecename": "3.Kampanyalar",
+                            "result": "",
+                            "nodedesc": "PrePaid Menu  Kampayalar"
+                        },
+                        {
+                            "piecename": "4.Yeni Paketler",
+                            "result": "",
+                            "nodedesc": "PrePaid Menu Yeni Paketler"
+                        },
+                        {
+                            "piecename": "5.OTA",
+                            "result": "",
+                            "nodedesc": "PrePaid Menu Ota"
+                        },
+                        {
+                            "piecename": "6.Kayıp Çalıntı",
+                            "result": "",
+                            "nodedesc": "PrePaid Menu KayıpÇalıntı"
+                        },
+                        {
+                            "piecename": "7.Vergi Bildirimi",
+                            "result": "",
+                            "nodedesc": "PrePaid Menu Vergi Bildirimi"
+                        }
+                    ]
+                },
+                {
+                    "reportname": "KK ile Lira Yükleme Ana Menü IVR Tuşlama Kullanım",
+                    "type": "column",
+                    "result": "",
+                    "nodedesc": "PrePaid Menu KK ile Lira Yükleme",
+                    "pieces": [
+                        {
+                            "piecename": "0.MT Transfer",
+                            "result": "",
+                            "nodedesc": "KK ile LiraYükleme PrePaid Alt Menusu , MT Transfer"
+                        },
+                        {
+                            "piecename": "1.KK ile Lira Yükleme",
+                            "result": "",
+                            "nodedesc": "KK ile Lira Yükleme Alt Menu Lira Yükleme"
+                        },
+                        {
+                            "piecename": "2.Tarife İşlemleri",
+                            "result": "",
+                            "nodedesc": "KK ile Lira Yükleme Alt Menu Tarife İşlemleri"
+                        },
+                        {
+                            "piecename": "3.Numara Değişikliği",
+                            "result": "",
+                            "nodedesc": "KK ile Lira Yükleme Alt Menu  Numara Degişikligi"
+                        }
+                    ]
+                },
+                {
+                    "reportname": "Kalan Kullanım ve Yurtdışı Servisleri Ana Menü IVR Tuşlama Kullanım",
+                    "type": "column",
+                    "result": "",
+                    "nodedesc": "Kalan Kullanim ve YurtDışı Servisleri PrePaid Alt Menusu",
+                    "pieces": [
+                        {
+                            "piecename": "0.MT Transfer",
+                            "result": "",
+                            "nodedesc": "Kalan Kullanim ve YurtDışı Servisleri PrePaid Alt Menusu , MT Transfer"
+                        },
+                        {
+                            "piecename": "1.Kalan Kullanım",
+                            "result": "",
+                            "nodedesc": "Kalan Kullanim ve YurtDışı Servisleri Alt Menusu  KalanKullanim"
+                        },
+                        {
+                            "piecename": "2.Yurtdışı Servisleri",
+                            "result": "",
+                            "nodedesc": "Kalan Kullanim ve YurtDışı Servisleri Alt Menusu  YurtDisiServisleri"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

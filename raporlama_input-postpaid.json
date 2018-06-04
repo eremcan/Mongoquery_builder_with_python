@@ -1,0 +1,256 @@
+{
+    "category": "Postpaid-Raporlar",
+    "subcategories": [
+        {
+            "subcategoryname": "Çağrı Raporları",
+            "reports": [
+                {
+                    "reportname": "Sonlanma Kodu",
+                    "type": "column",
+                    "result": "",
+                    "nodedesc": "",
+                    "pieces": [
+                        {
+                            "piecename": "Hangup",
+                            "result": "HANGUP",
+                            "nodedesc": ""
+                        },
+                        {
+                            "piecename": "Agent",
+                            "result": "AGENT",
+                            "nodedesc": ""
+                        },
+                        {
+                            "piecename": "Disconnect",
+                            "result": "DISCONNECT",
+                            "nodedesc": ""
+                        }
+                    ]
+                },
+                {
+                    "reportname": "Hangup",
+                    "type": "column",
+                    "result": "HANGUP",
+                    "nodedesc": "",
+                    "pieces": [
+                        {
+                            "piecename": "Postpaid Ana Menü",
+                            "result": "HANGUP",
+                            "nodedesc": "PostPaid Ana Menu"
+                        },
+                        {
+                            "piecename": "KYT Proaktivite",
+                            "result": "HANGUP",
+                            "nodedesc": "MenuCampaignTitles && !!Dönem ve Odeme Sorgusu && !!Fatura Kesim Sayacı && !!PostPaid Ana Menu"
+                        },
+                        {
+                            "piecename": "Fatura Proaktivite",
+                            "result": "HANGUP",
+                            "nodedesc": "Dönem ve Odeme Sorgusu && !!Fatura Kesim Sayacı && !!PostPaid Ana Menu"
+                        },
+                        {
+                            "piecename": "Fatura Kesim Proaktivite",
+                            "result": "HANGUP",
+                            "nodedesc": "Fatura Kesim Sayacı && !!PostPaid Ana Menu"
+                        },
+                        {
+                            "piecename": "Köpük Çağrı",
+                            "result": "HANGUP",
+                            "nodedesc": "!!MenuCampaignTitles && !!Dönem ve Odeme Sorgusu && !!Fatura Kesim Sayacı && !!PostPaid Ana Menu"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subcategoryname": "IVR Raporları",
+            "reports": [
+                {
+                    "reportname": "Postpaid Ana Menü IVR Sonlanma Kodu",
+                    "type": "column",
+                    "result": "",
+                    "nodedesc": "PostPaid Ana Menu",
+                    "pieces": [
+                        {
+                            "piecename": "Hangup",
+                            "result": "HANGUP",
+                            "nodedesc": "PostPaid Ana Menu"
+                        },
+                        {
+                            "piecename": "Agent",
+                            "result": "AGENT",
+                            "nodedesc": "PostPaid Ana Menu"
+                        },
+                        {
+                            "piecename": "Disconnect",
+                            "result": "DISCONNECT",
+                            "nodedesc": "PostPaid Ana Menu"
+                        }
+                    ]
+                },
+                {
+                    "reportname": "Postpaid AnaMenü IVR Agent",
+                    "type": "column",
+                    "result": "AGENT",
+                    "nodedesc": "PostPaid Ana Menu",
+                    "pieces": [
+                        {
+                            "piecename": "0.MT Transfer",
+                            "result": "AGENT",
+                            "nodedesc": "PostPaid Ana Menu , MT Transfer"
+                        },
+                        {
+                            "piecename": "1.Fatura Ana Menü",
+                            "result": "AGENT",
+                            "nodedesc": "KK ile Fatura Ödeme Postpaid Alt Menusu"
+                        },
+                        {
+                            "piecename": "2.Tarife Ana Menü",
+                            "result": "AGENT",
+                            "nodedesc": "Tarife Menu Postpaid Alt Menusu"
+                        },
+                        {
+                            "piecename": "3.Kampanyalar",
+                            "result": "AGENT",
+                            "nodedesc": "Postpaid Menu Kampayalar"
+                        },
+                        {
+                            "piecename": "4.Yeni Paketler",
+                            "result": "AGENT",
+                            "nodedesc": "Postpaid Menu Yeni Paketler"
+                        },
+                        {
+                            "piecename": "5.OTA",
+                            "result": "AGENT",
+                            "nodedesc": "Postpaid Menu OTA"
+                        },
+                        {
+                            "piecename": "6.Kayıp Çalıntı",
+                            "result": "AGENT",
+                            "nodedesc": "Postpaid Menu KayıpÇalıntı"
+                        }
+                    ]
+                },
+                {
+                    "reportname": "Postpaid Ana Menü IVR Tuşlama Kullanım",
+                    "type": "column",
+                    "result": "",
+                    "nodedesc": "PostPaid Ana Menu",
+                    "pieces": [
+                        {
+                            "piecename": "0.MT Transfer",
+                            "result": "",
+                            "nodedesc": "PostPaid Ana Menu , MT Transfer"
+                        },
+                        {
+                            "piecename": "1.Fatura Ana Menü",
+                            "result": "",
+                            "nodedesc": "KK ile Fatura Ödeme Postpaid Alt Menusu"
+                        },
+                        {
+                            "piecename": "2.Tarife Ana Menü",
+                            "result": "",
+                            "nodedesc": "Tarife Menu Postpaid Alt Menusu"
+                        },
+                        {
+                            "piecename": "3.Kampanyalar",
+                            "result": "",
+                            "nodedesc": "Postpaid Menu Kampayalar"
+                        },
+                        {
+                            "piecename": "4.Yeni Paketler",
+                            "result": "",
+                            "nodedesc": "Postpaid Menu Yeni Paketler"
+                        },
+                        {
+                            "piecename": "5.OTA",
+                            "result": "",
+                            "nodedesc": "Postpaid Menu OTA"
+                        },
+                        {
+                            "piecename": "6.Kayıp Çalıntı",
+                            "result": "",
+                            "nodedesc": "Postpaid Menu KayıpÇalıntı"
+                        }
+                    ]
+                },
+                {
+                    "reportname": "Fatura Ana Menü IVR Tuşlama Kullanım",
+                    "type": "column",
+                    "result": "",
+                    "nodedesc": "KK ile Fatura Ödeme Postpaid Alt Menusu",
+                    "pieces": [
+                        {
+                            "piecename": "0.MT Transfer",
+                            "result": "",
+                            "nodedesc": "KK ile Fatura Ödeme Postpaid Alt Menusu , MT Transfer"
+                        },
+                        {
+                            "piecename": "1.Fatura Ödeme",
+                            "result": "",
+                            "nodedesc": "KK ie FaturaÖdeme Alt Menu Fatura Ödeme"
+                        },
+                        {
+                            "piecename": "2.Fatura Detaylar",
+                            "result": "",
+                            "nodedesc": "KK ie FaturaÖdeme Alt Menu FaturaDetaylar"
+                        },
+                        {
+                            "piecename": "3.Güncel Fatura",
+                            "result": "",
+                            "nodedesc": "KK ie FaturaÖdeme Alt Menu  GuncelFatura"
+                        },
+                        {
+                            "piecename": "4.E-Fatura Servisleri",
+                            "result": "",
+                            "nodedesc": "KK ie FaturaÖdeme Alt Menu  E-FaturaServisleri"
+                        },
+                        {
+                            "piecename": "5.Numara Değişikliği",
+                            "result": "",
+                            "nodedesc": "KK ie FaturaÖdeme Alt Menu  Numara Degişikligi"
+                        },
+                        {
+                            "piecename": "6.Geçmiş Çağrılar",
+                            "result": "",
+                            "nodedesc": "KK ie FaturaÖdeme Alt Menu GeçmişÇagriDetaylari"
+                        }
+                    ]
+                },
+                {
+                    "reportname": "Tarife Ana Menü IVR Tuşlama Kullanım",
+                    "type": "column",
+                    "result": "",
+                    "nodedesc": "Tarife Menu Postpaid Alt Menusu",
+                    "pieces": [
+                        {
+                            "piecename": "0.MT Transfer",
+                            "result": "",
+                            "nodedesc": "Tarife Menu Postpaid Alt Menusu , MT Transfer"
+                        },
+                        {
+                            "piecename": "1.Tarife İşlemleri",
+                            "result": "",
+                            "nodedesc": "Tarife Alt MenuTarife Islemleri"
+                        },
+                        {
+                            "piecename": "2.Taahhüt İşlemleri",
+                            "result": "",
+                            "nodedesc": "Tarife Alt MenuTaahudslemleri"
+                        },
+                        {
+                            "piecename": "3.Kalan Kullanım",
+                            "result": "",
+                            "nodedesc": "Tarife Alt MenuKalanKullanim"
+                        },
+                        {
+                            "piecename": "4.Yurtdışı Servisler",
+                            "result": "",
+                            "nodedesc": "Tarife Alt Menu YurtDişiServisleri"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

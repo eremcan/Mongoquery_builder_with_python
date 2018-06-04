@@ -8,10 +8,11 @@ from pymongo import MongoClient
 client = MongoClient('localhost', 27017)  # 27017 is the default port number for mongodb
 db = client.BilgeDb
 #degistir
-bilge = db.PrepaidIVR
+bilge = db.PostpaidIVR
 
 
 def querynodedescbuilder(nodedesclist):
+
     length = len(nodedesclist)
     if (length > 1):
         result = " , '$and':["
@@ -110,7 +111,7 @@ def querynodedescbuilder(nodedesclist):
             result += nodedesclist[0]
             result += "' }"
 
-        if ('&&' in nodedesclist[0]):
+        elif ('&&' in nodedesclist[0]):
             andresult = " , '$and':["
 
             splittednodes = nodedesclist[0].split('&&')

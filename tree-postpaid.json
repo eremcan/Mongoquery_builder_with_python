@@ -1,0 +1,368 @@
+{
+   "nodename":"Postpaid Ana Menü",
+   "dtmf":"",
+   "nodedesc":"PostPaid Ana Menu",
+   "childs":[
+      {
+         "nodename":"Fatura Ana Menü",
+         "dtmf":"1",
+         "nodedesc":"KK ile Fatura Ödeme Postpaid Alt Menusu",
+         "childs":[
+            {
+               "nodename":"Fatura Ödeme",
+               "dtmf":"1",
+               "nodedesc":"KK ie FaturaÖdeme Alt Menu Fatura Ödeme",
+               "childs":[
+                  {
+                     "nodename":"Faturası Olmayanlar",
+                     "dtmf":"",
+                     "nodedesc":"KK Fatura Odeme - Ödenmemiş fatura yok",
+                     "childs":[
+
+                     ]
+                  },
+                  {
+                     "nodename":"Faturası Olanlar",
+                     "dtmf":"",
+                     "nodedesc":"KK Fatura Odeme - Ödenmemiş 1 fatura var || KK Fatura Odeme - Ödenmemiş 1 den fazla fatura var",
+                     "childs":[
+                        {
+                           "nodename":"İşlem Yapanlar",
+                           "dtmf":"",
+                           "nodedesc":"KK ile Fatura Odeme UnragPay Menu",
+                           "childs":[
+
+                           ]
+                        },
+                        {
+                           "nodename":"İşlem Yapmayanlar",
+                           "dtmf":"",
+                           "nodedesc":"!!KK ile Fatura Odeme UnragPay Menu",
+                           "childs":[
+
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "nodename":"Fatura Detaylar",
+               "dtmf":"2",
+               "nodedesc":"KK ie FaturaÖdeme Alt Menu FaturaDetaylar",
+               "childs":[
+                  {
+                     "nodename":"Faturası Olmayanlar",
+                     "dtmf":"",
+                     "nodedesc":"FaturaDetaylar Fatura yok bilgi anonsu",
+                     "childs":[
+
+                     ]
+                  },
+                  {
+                     "nodename":"Faturası Olanlar",
+                     "dtmf":"",
+                     "nodedesc":"FaturaDetaylar Fatura bilgi anonsu",
+                     "childs":[
+                        {
+                           "nodename":"E - Mail ile Detay İsteyenler",
+                           "dtmf":"",
+                           "nodedesc":"FaturaDetaylar Email CDR gönderim",
+                           "childs":[
+
+                           ]
+                        },
+                        {
+                           "nodename":"Sms ile Detay İsteyenler",
+                           "dtmf":"",
+                           "nodedesc":"FaturaDetaylar Fatura detayı bilgi anonsu",
+                           "childs":[
+
+                           ]
+                        },
+                        {
+                           "nodename":"Diğer (Anamenü, Hangup, vb)",
+                           "dtmf":"",
+                           "nodedesc":"!!FaturaDetaylar Payment Success Log && !!FaturaDetaylar Fatura detayı bilgi anonsu",
+                           "childs":[
+
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "nodename":"Güncel Fatura",
+               "dtmf":"3",
+               "nodedesc":"KK ie FaturaÖdeme Alt Menu  GuncelFatura",
+               "childs":[
+
+               ]
+            },
+            {
+               "nodename":"E-FaturaServisleri",
+               "dtmf":"4",
+               "nodedesc":"KK ie FaturaÖdeme Alt Menu  E-FaturaServisleri",
+               "childs":[
+                  {
+                     "nodename":"E Fatura Aktivasyon",
+                     "dtmf":"1",
+                     "nodedesc":"Postpaid Menu EFaturaMenuFaturaServisleri",
+                     "childs":[
+
+                     ]
+                  },
+                  {
+                     "nodename":"Otomatik Ödeme Talimatı",
+                     "dtmf":"2",
+                     "nodedesc":"E-Fatura Servisleri Alt Menu Otamatik Odeme Talimat",
+                     "childs":[
+
+                     ]
+                  },
+                  {
+                     "nodename":"Fatura Üst Limit",
+                     "dtmf":"3",
+                     "nodedesc":"Postpaid Menu FUS",
+                     "childs":[
+
+                     ]
+                  }
+               ]
+            },
+            {
+               "nodename":"Numara Değişikliği",
+               "dtmf":"5",
+               "nodedesc":"KK ie FaturaÖdeme Alt Menu  Numara Degişikligi",
+               "childs":[
+                  {
+                     "nodename":"Numara Değişikliği Bilgi Alma",
+                     "dtmf":"1",
+                     "nodedesc":"Numara Değişikliği Onay Menü && !!Msisdn degisimi icin sorgu",
+                     "childs":[
+
+                     ]
+                  },
+                  {
+                     "nodename":"Numara Değişikliği İşlemi",
+                     "dtmf":"2",
+                     "nodedesc":"Msisdn degisimi icin sorgu",
+                     "childs":[
+                        {
+                           "nodename":"Numara Değişikliği Başarılı",
+                           "dtmf":"",
+                           "nodedesc":"Numara Degisikligi Basarili Anonsu",
+                           "childs":[
+
+                           ]
+                        },
+                        {
+                           "nodename":"Numara Değişikliği Başarısız",
+                           "dtmf":"",
+                           "nodedesc":"Numara Degisikligi Teknik Hata",
+                           "childs":[
+
+                           ]
+                        },
+                        {
+                           "nodename":"Diğer (Anamenü, Hangup, vb)",
+                           "dtmf":"",
+                           "nodedesc":"!!Numara Degisikligi Basarili Anonsu && !!Numara Degisikligi Teknik Hata",
+                           "childs":[
+
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "nodename":"Geçmiş Çağrı Detayları",
+               "dtmf":"6",
+               "nodedesc":"KK ie FaturaÖdeme Alt Menu GeçmişÇagriDetaylari",
+               "childs":[
+
+               ]
+            },
+            {
+               "nodename":"MT Transfer",
+               "dtmf":"0",
+               "nodedesc":"KK ile Fatura Ödeme Postpaid Alt Menusu , MT Transfer",
+               "childs":[
+
+               ]
+            }
+         ]
+      },
+      {
+         "nodename":"Tarife Ana Menü",
+         "dtmf":"2",
+         "nodedesc":"Tarife Menu Postpaid Alt Menusu",
+         "childs":[
+            {
+               "nodename":"Tarife İşlemleri",
+               "dtmf":"1",
+               "nodedesc":"Tarife Alt MenuTarife Islemleri",
+               "childs":[
+                  {
+                     "nodename":"Tarifeler Hakkında Bilgi Alma",
+                     "dtmf":"1",
+                     "nodedesc":"Dinamik Menü && !!Tarife Degisikligi",
+                     "childs":[
+                        {
+                           "nodename":"Seçilen Tarifenin Detayını Dinleyenler",
+                           "dtmf":"D",
+                           "nodedesc":"Tarife Info detay anonsu",
+                           "childs":[
+
+                           ]
+                        },
+                        {
+                           "nodename":"Diğer (Ana Menü,Hangup, vs)",
+                           "dtmf":"",
+                           "nodedesc":"!!Tarife Info detay anonsu",
+                           "childs":[
+
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "nodename":"Tarifesini Değiştirenler",
+                     "dtmf":"2",
+                     "nodedesc":"Dinamik Menü && Tarife Degisikligi",
+                     "childs":[
+
+                     ]
+                  },
+                  {
+                     "nodename":"Diğer(Anamenü, Hangup, vb)",
+                     "dtmf":"3",
+                     "nodedesc":"!!Dinamik Menü",
+                     "childs":[
+
+                     ]
+                  }
+               ]
+            },
+            {
+               "nodename":"Taahhüt İşlemleri",
+               "dtmf":"2",
+               "nodedesc":"Tarife Alt MenuTaahudslemleri",
+               "childs":[
+
+               ]
+            },
+            {
+               "nodename":"Kalan Kullanım",
+               "dtmf":"3",
+               "nodedesc":"Tarife Alt MenuKalanKullanim",
+               "childs":[
+                  {
+                     "nodename":"Kalan Kullanım Detayını Dinleyenler",
+                     "dtmf":"",
+                     "nodedesc":"GuncelFaturaVeKullanim - Güncel Bilgilerin Tümünün Anonsu",
+                     "childs":[
+                        {
+                           "nodename":"Paket Sunulanlar",
+                           "dtmf":"1",
+                           "nodedesc":"Postpaid Yeni Paketler Transfer",
+                           "childs":[
+
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "nodename":"Kalan Datası 0 Olanlar",
+                     "dtmf":"",
+                     "nodedesc":"GuncelFaturaVeKullanim - Bilgi Bulunamadı Anonsu",
+                     "childs":[
+                        {
+                           "nodename":"Paket Sunulanlar",
+                           "dtmf":"1",
+                           "nodedesc":"Postpaid Yeni Paketler Transfer",
+                           "childs":[
+
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "nodename":"FKT Nedeniyle Kalan Datası Bulunmayanlar",
+                     "dtmf":"",
+                     "nodedesc":"GuncelFaturaVeKullanim - CDR Kontrol Edilmeli Anonsu",
+                     "childs":[
+                        {
+                           "nodename":"Paket Sunulanlar",
+                           "dtmf":"1",
+                           "nodedesc":"Postpaid Yeni Paketler Transfer",
+                           "childs":[
+
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "nodename":"Yurtdışı Servisleri",
+               "dtmf":"4",
+               "nodedesc":"Tarife Alt Menu YurtDişiServisleri",
+               "childs":[
+
+               ]
+            },
+            {
+               "nodename":"MT Transfer",
+               "dtmf":"0",
+               "nodedesc":"Tarife Menu Postpaid Alt Menusu , MT Transfer",
+               "childs":[
+
+               ]
+            }
+         ]
+      },
+      {
+         "nodename":"Kampanyalar",
+         "dtmf":"3",
+         "nodedesc":"Postpaid Menu Kampayalar",
+         "childs":[
+
+         ]
+      },
+      {
+         "nodename":"Yeni Paketler",
+         "dtmf":"4",
+         "nodedesc":"Postpaid Menu Yeni Paketler",
+         "childs":[
+
+         ]
+      },
+      {
+         "nodename":"OTA",
+         "dtmf":"5",
+         "nodedesc":"Postpaid Menu OTA",
+         "childs":[
+
+         ]
+      },
+      {
+         "nodename":"Kayıp Çalıntı",
+         "dtmf":"6",
+         "nodedesc":"Postpaid Menu KayıpÇalıntı",
+         "childs":[
+
+         ]
+      },
+      {
+         "nodename":"MT Transfer",
+         "dtmf":"0",
+         "nodedesc":"PostPaid Ana Menu , MT Transfer",
+         "childs":[
+
+         ]
+      }
+   ]
+}

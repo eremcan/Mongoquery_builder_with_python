@@ -1,0 +1,276 @@
+{
+   "nodename":"Prepaid Ana Menü",
+   "dtmf":"",
+   "nodedesc":"PrePaid Ana Menu",
+   "childs":[
+      {
+         "nodename":"KK ile Lira Yükleme ve Hat İşlemleri",
+         "dtmf":"1",
+         "nodedesc":"PrePaid Menu KK ile Lira Yükleme",
+         "childs":[
+            {
+               "nodename":"KK ile Lira Yükleme",
+               "dtmf":"1",
+               "nodedesc":"KK ile Lira Yükleme Alt Menu Lira Yükleme",
+               "childs":[
+                  {
+                     "nodename":"KK ile Lira Yüklemeye Uygun Olmayanlar",
+                     "dtmf":"",
+                     "nodedesc":"KKLiraYükleme - Hat durumu lira yükleme uygun değil",
+                     "childs":[
+
+                     ]
+                  },
+                  {
+                     "nodename":"KK ile Lira Yüklemeye Uygun Olanlar",
+                     "dtmf":"D",
+                     "nodedesc":"KKLiraYükleme -  Barem Seçim Menüsü",
+                     "childs":[
+                        {
+                           "nodename":"İşlem Yapanlar",
+                           "dtmf":"Nm",
+                           "nodedesc":"KKLiraYükleme - Barem Onay Menüsü && KKLiraYükleme - Lira Yukleme'den Ödeme menüsüne yönlendirme",
+                           "childs":[
+                              {
+                                 "nodename":"Başarılı İşlem",
+                                 "dtmf":"",
+                                 "nodedesc":"KKLiraYükleme - Ödemede basarili",
+                                 "childs":[
+
+                                 ]
+                              },
+                              {
+                                 "nodename":"Başarısız İşlem",
+                                 "dtmf":"",
+                                 "nodedesc":"KKLiraYükleme - Ödemede yapılamadı",
+                                 "childs":[
+
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           "nodename":"İşlem Yapmayanlar",
+                           "dtmf":"9",
+                           "nodedesc":"KKLiraYükleme - Barem Onay Menüsü && !!KKLiraYükleme - Lira Yukleme'den Ödeme menüsüne yönlendirme",
+                           "childs":[
+
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "nodename":"Tarife İşlemleri",
+               "dtmf":"2",
+               "nodedesc":"KK ile Lira Yükleme Alt Menu Tarife İşlemleri",
+               "childs":[
+                  {
+                     "nodename":"Tarifeler Hakkında Bilgi Alma",
+                     "dtmf":"1",
+                     "nodedesc":"Dinamik Menü",
+                     "childs":[
+                        {
+                           "nodename":"Seçilen Tarifenin Detayını Dinleyenler",
+                           "dtmf":"",
+                           "nodedesc":"Tarife Info detay anonsu",
+                           "childs":[
+
+                           ]
+                        },
+                        {
+                           "nodename":"Diğer (Ana Menü,Hangup, vs)",
+                           "dtmf":"",
+                           "nodedesc":"!!Tarife Info detay anonsu",
+                           "childs":[
+
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "nodename":"Tarifesini Değiştirenler",
+                     "dtmf":"2",
+                     "nodedesc":"Dinamik Menü && Tarife Degisikligi",
+                     "childs":[
+
+                     ]
+                  },
+                  {
+                     "nodename":"Diğer(Anamenü, Hangup, vb)",
+                     "dtmf":"3",
+                     "nodedesc":"!!Dinamik Menü",
+                     "childs":[
+
+                     ]
+                  }
+               ]
+            },
+            {
+               "nodename":"Numara Değişikliği",
+               "dtmf":"3",
+               "nodedesc":"KK ile Lira Yükleme Alt Menu  Numara Degişikligi",
+               "childs":[
+                  {
+                     "nodename":"Numara Değişikliği Bilgi Alma",
+                     "dtmf":"1",
+                     "nodedesc":"Numara Değişikliği Onay Menü && !!Msisdn degisimi icin sorgu",
+                     "childs":[
+
+                     ]
+                  },
+                  {
+                     "nodename":"Numara Değişikliği İşlemi",
+                     "dtmf":"2",
+                     "nodedesc":"Msisdn degisimi icin sorgu",
+                     "childs":[
+                        {
+                           "nodename":"Numara Değişikliği Başarılı",
+                           "dtmf":"",
+                           "nodedesc":"Numara Degisikligi Basarili Anonsu",
+                           "childs":[
+
+                           ]
+                        },
+                        {
+                           "nodename":"Numara Değişikliği Başarısız",
+                           "dtmf":"",
+                           "nodedesc":"Numara Degisikligi Teknik Hata",
+                           "childs":[
+
+                           ]
+                        },
+                        {
+                           "nodename":"Diğer (Anamenü, Hangup, vb)",
+                           "dtmf":"",
+                           "nodedesc":"!!Numara Degisikligi Basarili Anonsu && !!Numara Degisikligi Teknik Hata",
+                           "childs":[
+
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "nodename":"MT Transfer",
+               "dtmf":"0",
+               "nodedesc":"KK ile LiraYükleme PrePaid Alt Menusu , MT Transfer",
+               "childs":[
+
+               ]
+            }
+         ]
+      },
+      {
+         "nodename":"Kalan Kullanım ve Yurtdışı Servisleri",
+         "dtmf":"2",
+         "nodedesc":"Kalan Kullanim ve YurtDışı Servisleri PrePaid Alt Menusu",
+         "childs":[
+            {
+               "nodename":"Kalan Kullanım",
+               "dtmf":"1",
+               "nodedesc":"Kalan Kullanim ve YurtDışı Servisleri Alt Menusu  KalanKullanim",
+               "childs":[
+                  {
+                     "nodename":"Paket Satın Almak İsteyenler",
+                     "dtmf":"1",
+                     "nodedesc":"Prepaid Yeni Paketler Transfer",
+                     "childs":[
+                        {
+                           "nodename":"İşlem Yapanlar",
+                           "dtmf":"",
+                           "nodedesc":"Hat Bilgisi",
+                           "childs":[
+
+                           ]
+                        },
+                        {
+                           "nodename":"Diğer (Ana Menü,Hangup, vs)",
+                           "dtmf":"",
+                           "nodedesc":"!!Hat Bilgisi",
+                           "childs":[
+
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "nodename":"Diğer(Anamenü, Hangup, vb)",
+                     "dtmf":"",
+                     "nodedesc":"!!Prepaid Yeni Paketler Transfer",
+                     "childs":[
+
+                     ]
+                  }
+               ]
+            },
+            {
+               "nodename":"Yurtdışı Servisleri",
+               "dtmf":"2",
+               "nodedesc":"Kalan Kullanim ve YurtDışı Servisleri Alt Menusu  YurtDisiServisleri",
+               "childs":[
+
+               ]
+            },
+            {
+               "nodename":"MT Transfer",
+               "dtmf":"0",
+               "nodedesc":"Kalan Kullanim ve YurtDışı Servisleri PrePaid Alt Menusu , MT Transfer",
+               "childs":[
+
+               ]
+            }
+         ]
+      },
+      {
+         "nodename":"Kampanyalar",
+         "dtmf":"3",
+         "nodedesc":"PrePaid Menu  Kampayalar",
+         "childs":[
+
+         ]
+      },
+      {
+         "nodename":"Yeni Paketler",
+         "dtmf":"4",
+         "nodedesc":"PrePaid Menu Yeni Paketler",
+         "childs":[
+
+         ]
+      },
+      {
+         "nodename":"OTA",
+         "dtmf":"5",
+         "nodedesc":"PrePaid Menu Ota",
+         "childs":[
+
+         ]
+      },
+      {
+         "nodename":"Kayıp Çalıntı",
+         "dtmf":"6",
+         "nodedesc":"PrePaid Menu KayıpÇalıntı",
+         "childs":[
+
+         ]
+      },
+      {
+         "nodename":"Vergi Bildirimi",
+         "dtmf":"7",
+         "nodedesc":"PrePaid Menu Vergi Bildirimi",
+         "childs":[
+
+         ]
+      },
+      {
+         "nodename":"MT Transfer",
+         "dtmf":"0",
+         "nodedesc":"PrePaid Ana Menu , MT Transfer",
+         "childs":[
+
+         ]
+      }
+   ]
+}

@@ -167,6 +167,6 @@ def analyzereport(typeof,date):
 mydatelistpostpaid = ['2018-05-06','2018-05-07','2018-05-08','2018-05-09','2018-05-10','2018-05-11','2018-05-12']
 mydatelistprepaid = ['2018-05-09','2018-05-10','2018-05-11','2018-05-12']
 
-for date in mydatelistprepaid:
-    analyzereport('prepaid',date)
+for date in mydatelistpostpaid:
+    analyzereport('postpaid',date)
     #startAnalytics('prepaid',date)
