@@ -2,3 +2,5 @@ series of commits will be applied by master of GIT.
 
 again third and fourth info.
 again fifth info.
+again 55 info.
+again 66 info.
