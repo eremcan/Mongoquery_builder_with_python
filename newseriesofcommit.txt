@@ -1,4 +1,4 @@
-series of commits will be applied by master of GIT.
+series of commits will be uygulanmak by master of GIT.
 
-again third and fourth info.
+again ucuncu and fourth info.
 again fifth info.
