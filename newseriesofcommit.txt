@@ -3,8 +3,8 @@ series of commits will be uygulanmak by master of GIT.
 again third and fourth info.
 again fifth info.
 again 55 info.
-again 66 info.
 again ucuncu and fourth info.
 again fifth info.
 eklemeler yapıldı. hayat güzel yola devam degil mi?
 thanks.:))
+66 bilgisini kaldırdım.
